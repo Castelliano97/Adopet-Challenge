@@ -1,5 +1,7 @@
 .rodape{
     background: var(--verde);
+    text-align: center;
+    padding: 2em;
 }
 
 .rodape-titulo{
