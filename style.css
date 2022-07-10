@@ -1,4 +1,5 @@
 @import url(style/header.css);
+@import url(style/rodape.css);
 
 root{
     --cor-de-fundo: #E5E5E5;
@@ -14,8 +15,13 @@ root{
 }
 
 body{
-    background: var(--cor-de-fundo);
+    background: red;
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+}
+
+.teste{
+    /* position:initial    ; */
+    height: 1000cm;
 }
