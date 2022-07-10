@@ -1,0 +1,39 @@
+body .inicial{
+    background: var(--cor-de-fundo-inicial);
+    /*  <!-- <img src="../img/Forma 2.svg" alt="Forma 2" class="inicial-forma"> --> */
+
+    text-align: center;
+    /* height: 48em; */
+    padding: 10em 0 0;
+}
+
+.inicial-titulo{
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--branco);
+    padding: 1.5em 0 1em;
+}
+
+.inicial-texto{
+    color: var(--branco);
+    padding: 0 4em 1.5em;
+}
+
+.botoes{
+    display: flex;
+}
+
+.inicial-botoes{
+    background: var(--coral);
+    padding: 0.5em 2em;
+    font-weight: 600;
+    color: var(--branco);
+    text-decoration: none;
+    margin: 1em;
+    border-radius: 6px;
+}
+
+.inicial-imagem{
+    margin: 1.5em 0 -1.5em;
+    z-index: -1;
+}

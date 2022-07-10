@@ -1,8 +1,10 @@
 @import url(style/header.css);
 @import url(style/rodape.css);
+@import url(style/inicial.css);
 
 :root{
     --cor-de-fundo: #E5E5E5;
+    --cor-de-fundo-inicial: #3772FF;
     --fonte-principal: "Poppins";
     --azul: #3772FF;
     --verde: #36D6AD;
@@ -12,6 +14,7 @@
     --cinza-escuro: #737380;
     --cinza-medio: #BCBCBC;
     --cinza-claro: #F6F6F6;
+    --branco: #FFFFFF;
 }
 
 body{
@@ -22,5 +25,5 @@ body{
 }
 
 .teste{
-    height: 100cm;
+    /* height: 100cm; */
 }
