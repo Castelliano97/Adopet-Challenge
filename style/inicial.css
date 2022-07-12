@@ -1,9 +1,13 @@
 body .inicial{
-    background: var(--cor-de-fundo-inicial);
-    /*  <!-- <img src="../img/Forma 2.svg" alt="Forma 2" class="inicial-forma"> --> */
+    background-image: url(../img/gato-cachorro.svg), url(../img/Forma\ 2.svg);
+    background-repeat: no-repeat;    
+    background-color: var(--cor-de-fundo-inicial);
+    background-position: bottom center, center right;
+    height: 43em;
+}
 
+.inicial{
     text-align: center;
-    /* height: 48em; */
     padding: 10em 0 0;
 }
 
@@ -21,19 +25,15 @@ body .inicial{
 
 .botoes{
     display: flex;
+    flex-direction: column;
 }
 
 .inicial-botoes{
     background: var(--coral);
-    padding: 0.5em 2em;
+    padding: 1em 2em;
     font-weight: 600;
     color: var(--branco);
     text-decoration: none;
-    margin: 1em;
+    margin: 1em 5em;
     border-radius: 6px;
-}
-
-.inicial-imagem{
-    margin: 1.5em 0 -1.5em;
-    z-index: -1;
 }
