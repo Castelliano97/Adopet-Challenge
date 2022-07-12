@@ -1,0 +1,15 @@
+.index-meio{
+    height: 48em;
+    display: flex;
+    flex-direction: column;
+}
+
+.index-botoes{
+    background: var(--coral);
+    padding: 1em 2em;
+    font-weight: 600;
+    color: var(--branco);
+    text-decoration: none;
+    margin: 25em 5em 0;
+    border-radius: 6px;
+}
