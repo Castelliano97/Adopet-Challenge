@@ -5,6 +5,7 @@
 }
 
 .index-botoes{
+    text-align: center;
     background: var(--coral);
     padding: 1em 2em;
     font-weight: 600;
