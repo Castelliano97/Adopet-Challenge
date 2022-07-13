@@ -1,12 +1,4 @@
-body .cadastro{
-    /* background-image: url(../img/Forma\ 3.svg) no-repeat;   
-    background-position: center left;
-    height: 33em;
-    text-align: center; */
-
-    /* background-image: url(../img/Forma\ 3.svg);
-    background-repeat: no-repeat;    
-    background-position: center left; */
+body .login{
     height: 48em;
     text-align: center;
 }
@@ -21,11 +13,11 @@ body .cadastro{
 
 .forma3{
     position: absolute;
-width: 82.73px;
-height: 415px;
-left: 1px;
-top: 330px;
-z-index: -1;
+    width: 82.73px;
+    height: 415px;
+    left: 1px;
+    top: 330px;
+    z-index: -1;
 }
 
 .div-input{
@@ -33,21 +25,21 @@ z-index: -1;
     flex-direction: column;
 }
 
-.cadastro-logo{
+.login-logo{
     margin: 10em 0 0;
 }
 
-.cadastro-texto1, .cadastro-texto2{
+.login-texto{
     color: var(--azul);
-    margin: 1.5em;
+    margin: 2.5em;
 }
 
-.cadastro-lable{
+.login-lable{
     color: var(--cinza-escuro);
     margin: 1.2em 0 0.5em;
 }
 
-.cadastro-email, .cadastro-nome, .cadastro-senha1, .cadastro-senha2{
+.login-email, .login-senha{
     margin: 0 2em;
     padding: 1em;
     text-align: center;
@@ -58,23 +50,21 @@ z-index: -1;
     border: 0px;
 }
 
-.cadastro-versenha1{
+.login-esqueci{
+    margin: 1.5em;
+    font-size: 12px;
+    color: var(--coral);
+}
+
+.login-versenha{
     position: absolute;
     left: 83.89%;
     right: 11.11%;
-    top: 64.56%;
+    top: 52%;
     bottom: 40.7%;
 }
 
-.cadastro-versenha2{
-    position: absolute;
-    left: 83.89%;
-    right: 11.11%;
-    top: 74.50%;
-    bottom: 31.01%;
-}
-
-.cadastro-botao{
+.login-botao{
     color: white;
     text-decoration: none;
     background: var(--coral);

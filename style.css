@@ -3,6 +3,7 @@
 @import url(style/rodape.css);
 @import url(style/inicial.css);
 @import url(style/cadastro.css);
+@import url(style/login.css);
 
 :root{
     --cor-de-fundo: #E5E5E5;
