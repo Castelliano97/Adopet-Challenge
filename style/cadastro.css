@@ -52,13 +52,24 @@ z-index: -1;
     padding: 1em;
     text-align: center;
     color: var(--cinza-medio);
-    background: var(--cinza-claro);
+    background-color: var(--cinza-claro);
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
     border-radius: 6px;
     border: 0px;
 }
 
-.cadastro-senha1, .cadastro-senha2{
-    background-image: url(../img/ver-senha.svg) no-repeat;
-    background-position: center left;
+.cadastro-versenha1{
+    position: absolute;
+    left: 83.89%;
+    right: 11.11%;
+    top: 64.56%;
+    bottom: 40.7%;
+}
+
+.cadastro-versenha2{
+    position: absolute;
+    left: 83.89%;
+    right: 11.11%;
+    top: 74.50%;
+    bottom: 31.01%;
 }
